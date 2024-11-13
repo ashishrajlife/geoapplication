@@ -1,4 +1,4 @@
-import Home from '../../usermanagementapp/src/components/Home.vue'
+import Home from './components/Home.vue'
 import userSignUp from './components/userSignUp.vue'
 import Login from './components/Login.vue';
 import AddData from './components/AddData.vue';

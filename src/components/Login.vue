@@ -45,8 +45,11 @@
         let result = await axios.get(`http://localhost:3000/user?email=${this.email}&password=${this.password}`)
         console.log(result)
         if (result.status == 200 && result.data.length>0) {
-          toast.success('Logged in',{ autoClose:1000});
-          this.$router.push({ name: 'Home' });
+          toast.success('Logging in',{ autoClose:1000});
+          // this.$router.push({ name: 'Home' });
+          setTimeout(() => {
+            this.$router.push({ name: 'Home' });
+  }, 1500);
         } else {
           toast.error('Username/Password is Wrong !',{ autoClose:2000});
         }

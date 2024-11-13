@@ -17,11 +17,11 @@
       logout() {
         localStorage.removeItem("user-info");
         // this.$router.push({ name: "Login" });
-        toast.error('Logged out !',{ autoClose:3500});
+        toast.error('Logging out...!',{ autoClose:3500});
 
         setTimeout(() => {
     this.$router.push({ name: "Login" });
-  }, 3500);
+  }, 1500);
 
       }
     }
