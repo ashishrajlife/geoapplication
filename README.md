@@ -10,6 +10,7 @@
 # step 2----------------
 
 #server setup
+run command in command promt (open global promt by using windows key and search)
 npm install -g json-server (Install json-server globally using npm)
 
 now go to db folder inside project and in the addressbar of folder having db.json and open command promt and hit command 
