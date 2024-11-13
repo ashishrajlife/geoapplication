@@ -1,35 +1,22 @@
 # usermanagementapp
 
-step 1----------------
+# step 1----------------
+
+.clone the project from Git and run command one by one in the folder after importing to vsCode (i prefer vs code)
+ npm install
+ npm install -g @vue/cli
+ npm run serve
+
+# step 2----------------
 
 #server setup
-
 npm install -g json-server (Install json-server globally using npm)
 
-## go to db folder inside project and in the addressbar open command promt and hit command 
+now go to db folder inside project and in the addressbar of folder having db.json and open command promt and hit command 
 json-server --watch db.json
 
-Step 2 -----------
+#now you are good to gooooo..........
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 
 
